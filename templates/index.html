@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Precision Welding Optimization</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> Weldperfex</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Predict</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>Step into the Realm of WeldPerfex</h1>
+      <h6>-- Where Precision meets Excellence --</h6>
+      <h2>We are team of talented data scientists dedicated to enhancing welding efficiency through innovative machine learning solutions</h2>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+            <img src="assets/img/about-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+            <h3 data-aos="fade-up">Discover our Essence and Vision</h3>
+            <p data-aos="fade-up">
+              Explore the heart and soul of our organization, delving into our foundational principles and overarching mission.
+            </p>
+            <div class="icon-box" data-aos="fade-up">
+              <p>WeldPerfex specializes in precision welding optimization, utilizing innovative machine learning to analyze vital welding parameters. Our advanced algorithms predict welding outcomes, ensuring structural integrity and performance while reducing defects. Trust WeldPerfex for unparalleled welding excellence, efficiently delivered with confidence.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Steps Section ======= -->
+    <section id="steps" class="steps section-bg">
+      <div class="container">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+            <span>01</span>
+            <h4>Navigate to the Predict Section</h4>
+            <p>Go to Predict section either by scrolling down the page or clicking on the Predict option located in the top right corner of the website.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="100">
+            <span>02</span>
+            <h4>Input the Necessary Parameters</h4>
+            <p>You will need to provide the required parameters and details relevant to the prediction task.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="200">
+            <span>03</span>
+            <h4>Receive Your Results</h4>
+            <p>Click "Submit" to initiate predictions. After submission, the algorithm will process inputs and generate predictions.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Steps Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Predict</h2>
+          <p>Kindly note that all welding optimization predictions are exclusively performed on stainless steel (SS) material.</p>
+        </div>
+        
+        <form action = "/login" method = "post">
+          <label for="pressure">Pressure (PSI):</label>
+          <input type="text" id="pressure" name="pressure"><br><br>
+            
+          <label for="welding_time">Welding Time (ms):</label>
+          <input type="text" id="welding_time" name="welding_time"><br><br>
+            
+          <label for="angle">Angle (Deg):</label>
+          <input type="text" id="angle" name="angle"><br><br>
+            
+          <label for="force">Force (N):</label>
+          <input type="text" id="force" name="force"><br><br>
+            
+          <label for="current">Current (A):</label>
+          <input type="text" id="current" name="current"><br><br>
+            
+          <label for="thickness_a">Thickness A (mm):</label>
+          <input type="text" id="thickness_a" name="thickness_a"><br><br>
+            
+          <label for="thickness_b">Thickness B (mm):</label>
+          <input type="text" id="thickness_b" name="thickness_b"><br><br>
+            
+          <label for="pull_test">PullTest (N):</label>
+          <input type="text" id="pull_test" name="pull_test"><br><br>
+            
+          <label for="nugget_diameter">NuggetDiameter (mm):</label>
+          <input type="text" id="nugget_diameter" name="nugget_diameter"><br><br>
+            
+          <p><input type = "submit" value = "Submit"/></p>
+
+          <h2><b>{{y}}</b></h2>
+        
+        </form>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>F.A.Q</h2>
+          <p>Have questions? Explore our FAQ section to find answers to common queries and learn more about our services.</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is the main objective of the welding optimization project?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  The main objective is to leverage machine learning to analyze welding parameters and develop predictive models for achieving superior welding quality.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How does the project address the issue of variations in welding parameters affecting quality?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  By analyzing datasets containing parameters like pressure, welding time, and material properties, the project aims to predict optimal conditions, reducing defects and ensuring structural integrity.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What industries can benefit from this welding optimization project? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Industries such as automotive, mechanical, and structural welding can benefit. The project addresses specific scenarios in each sector, optimizing welding processes and ensuring quality.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
